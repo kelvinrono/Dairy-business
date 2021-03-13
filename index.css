@@ -1,11 +1,29 @@
-body{
-    margin:0px;
-    padding:0px;
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E3C5BB;
 }
-{
+
+.overall {
     width: 80%;
     margin: auto;
-    background-color: #E3C5BB;
+    background-color: honeydew;
     border: 1px solid black;
     box-shadow: 0px 0px 5px grey;
+    height: 100%;
+    margin-top: 20px;
 }
+input[type=number] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    box-sizing: border-box;
+  }
+  footer{
+      border-top: 1px solid black;
+      text-align: center;
+      padding-bottom: 5px;
+      box-sizing: border-box;
+      background-color: lightcyan;
+
+  }
