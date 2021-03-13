@@ -27,3 +27,13 @@ input[type=number] {
       background-color: lightcyan;
 
   }
+  nav{
+      background-color: lightgrey;
+      margin-top:0px;
+  }
+  nav ul li{
+      display: inline-block;
+      margin:10px;
+      
+    
+  }
