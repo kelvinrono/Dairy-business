@@ -1,16 +1,14 @@
-var myArray=["21"];
-function addRecord(){
-    //get the value from the input text
-    var mon=document.getElementById('mon').value;
+ 
+var k = "Productions : <br>"; 
+function kelvin() { 
+    var items = document.getElementsByName('shed'); 
+
+    for (var i = 0; i < items.length; i++) { 
+        var a = [i]; 
+        k = k +  a.value + " " +"<br>"; 
+    } 
     
-    //append the value to the array
-    myArray.push(mon);
+    document.getElementById("res").innerHTML = k; 
+    document.getElementById("milk").innerHTML = "Output"; 
+} 
 
-    var record1="";
-
-    for(i=0;i<myArray.length;i++){
-        record1=record1+myArray[i];
-    }
-    //display
-    document.getElementById('display').innerHTML = record1;
-}
