@@ -45,3 +45,7 @@ input[type=number] {
       width:20%;
       border: 2px dotted floralwhite;
   }
+  .btn{
+      color:white;
+      background-color: green;
+  }
