@@ -38,11 +38,12 @@ input[type=number] {
   }
   .images{
       display: flex;
-      margin:5px;
-      border: 1px dotted floralwhite;
+      margin:auto;
+      width:96%
 
   }
   img{
       display: flex;
-      width: :25%;
+      width:20%;
+      border: 2px dotted floralwhite;
   }
