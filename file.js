@@ -1,5 +1,4 @@
 
-
 var no = "Litres Per Shed : <br>"; 
 var items= document.getElementsByName('shed'); 
 function kelvin() { 
@@ -14,16 +13,12 @@ function kelvin() {
     document.getElementById("milk").innerHTML = "Productions"; 
 } 
 
-
-
-
 var totalLitres = 0;
 function totalCapacity(){
 for(var i = 0; i < items.length; i++)
 {
     totalLitres = totalLitres + items[i];
 }
-document.getElementById('summing')=totalLitres;
 
 }
 
@@ -33,9 +28,22 @@ var rate = 45;
 dailyIncome = totalCapacity() * 45;
   weeklyIncome = dailyIncome * 7;
   yearlyIncome = dailyIncome * 366;
-  document.getElementById('daily')="Daily Income: " + dailyIncome;
-  document.getElementById('weekly')="Weekly Income: " + weeklyIncome;
-  document.getElementById('yearly')="Yearly Income:" + yearlyIncome;
+
+  function dayAdd(){
+    console.log(dailyIncome);
+  }
+
+  function weekAdd(){
+    console.log(weeklyIncome);
+  }
+  
+  function yearAdd(){
+    console.log(yearlyIncome);
+  }
+  
+  document.getElementById('daily').addEventListener('click',dayAdd());
+  document.getElementById('weekly').addEventListener('click',weekAdd());
+  document.getElementById('yearly').addEventListener('click',yearAdd());
   var mon = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   var dayOfMonth= [ 31,29,31,30,31,30,31,31,30,31,30,31];
   for (i = 0; i<mon.length; i++){

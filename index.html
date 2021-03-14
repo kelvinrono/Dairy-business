@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="file.js"></script>
+    <script src=static.js></script>
     <link rel="stylesheet" href="index.css">
 </head>
 <body> 
@@ -26,15 +27,24 @@
            Shed B:<input type="number" name="shed" value="" /><br> 
            Shed C: <input type="number" name="shed" value="" /><br> 
            Shed D:<input type="number" name="shed" value="" /><br>  
-            <button type="button" name="button" onclick="kelvin()"> 
-                Submit 
+            <button type="button" name="button" onclick="kelvin()" class = "btn"> 
+                Add to Records 
             </button> 
         </form> 
         <br> 
       
-        <p id="res"></p>
-        <button onclick="sum()"> Sum</button>
-        <p  id = "summing"> </p>
+       <p id="res">
+
+
+
+        <button class="btn" id = "daily"> Daily income </button>
+        
+        <p><button class="btn"  id = "weekly"> Weekly income </button></p>
+
+       <p> <button class="btn" id = "monthly" > Monthly income </button></p>
+
+        <button class="btn"  id = "yearly"> Yearly income </button>
+        
         <footer>
             <p>&copy; copyrights reserved.</p> 
         </footer> 
