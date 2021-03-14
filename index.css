@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #E3C5BB;
+    background-color: #c09081;
 }
 
 .overall {
@@ -27,13 +27,11 @@ input[type=number] {
       background-color: lightcyan;
 
   }
-  nav{
-      background-color: lightgrey;
+  h1{
+      background-color:#000;
       margin-top:0px;
-  }
-  nav ul li{
-      display: inline-block;
-      margin:10px;
+      color:rgb(231, 241, 236);
+ 
       
   }
   .images{
