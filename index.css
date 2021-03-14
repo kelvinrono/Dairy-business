@@ -35,5 +35,14 @@ input[type=number] {
       display: inline-block;
       margin:10px;
       
-    
+  }
+  .images{
+      display: flex;
+      margin:5px;
+      border: 1px dotted floralwhite;
+
+  }
+  img{
+      display: flex;
+      width: :25%;
   }
